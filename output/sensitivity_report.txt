@@ -1,0 +1,19 @@
+STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+
+Student: Acapulco Michael
+Student ID: TUPM-26-1875
+Random Seed: 261875
+Selected Features: Feature_272, Feature_582, Feature_160, Feature_413, Feature_236
+Bootstrap Repetitions: 250
+
+Largest Change in Mean Difference: Feature_160
+Change Value: 2.9330
+
+Features with Changed Difference Sign: 0
+Features with Changed Ranking: 0
+
+Reproducibility Verified: True
+
+INTERPRETATION:
+Available-case analysis excludes missing measurements, while median imputation replaces missing values using the full-dataset median.
+Differences in bootstrap confidence intervals and feature rankings indicate sensitivity to data preparation.
